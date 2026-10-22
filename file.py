@@ -38,9 +38,9 @@ def adivina_el_numero():
             print("=" * 40)
             return
         elif intento < numero_secreto:
-            print("    El número secreto es MAYOR.")
+            print("    El número escondido es MAYOR.")
         else:
-            print("    El número secreto es MENOR.")
+            print("    El número escondido es MENOR.")
     
     # Se acabaron los intentos
     print("\n" + "=" * 40)
